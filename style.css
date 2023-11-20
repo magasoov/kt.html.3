@@ -1,0 +1,488 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	color: #fff;
+	font-family: 'Poppins', sans-serif;
+}
+body{
+	background: url(./image/background.jpg);
+	background-size: cover;
+	background-clip: content-box;
+	background-repeat: space;
+}
+header{
+	width: 100%;
+	height: 100px;
+	display: flex;
+	align-items: center;
+	margin-top: 20px;
+	font-family: 'Poppins', sans-serif;
+}
+
+.start{
+	font-size: 50px;
+	padding-left: 70px;
+}
+.user{
+	font-size: 40px;
+	padding-left: 1500px;
+}
+.user-img1{
+	width: 40px;
+}
+.user-img{
+	padding-left: 7px;
+}
+.main{
+	margin-top: 50px;
+	width: 1600px;
+	height: 760px;
+	margin-left: 120px;
+}
+.stroka1{
+	display: flex;
+}
+.stroka2{
+	display: flex;
+}
+.stroka3{
+	display: flex;
+}
+.stroka4{
+	display: flex;
+}
+.icon1{
+	height: 180px;
+	width: 320px;
+	background-color: #33A3B4;
+	margin: 2px;
+	font-size: 28px;
+	transition: .50s ease;
+
+}
+.icon1:hover{
+	transform: scale(1.02);
+}
+.icon-people{
+	height: 180px;
+	width: 320px;
+	background-color: #DB6D51;
+	margin: 2px;
+	font-size: 28px;
+	transition: .50s ease;
+}
+.icon-people:hover{
+	transform: scale(1.02);
+}
+.icon2{
+	height: 180px;
+	width: 320px;
+	background-color: #745BBB;
+	margin: 2px;
+	font-size: 28px;
+	transition: .50s ease;
+}
+.icon2:hover{
+	transform: scale(1.02);
+}
+.icon3{
+	height: 180px;
+	width: 150px;
+	background-color: rebeccapurple;
+	margin: 2px;
+	transition: .50s ease;
+}
+.icon3:hover{
+	transform: scale(1.02);
+}
+.icon4{
+	height: 180px;
+	width: 150px;
+	background-color: rebeccapurple;
+	margin: 2px;
+	transition: .50s ease;
+}
+.icon4:hover{
+	transform: scale(1.02);
+}
+.icons3{
+	height: 180px;
+	width: 304px;
+	background-color: rebeccapurple;
+	margin: 2px;
+	transition: .50s ease;
+}
+.icon3:hover{
+	transform: scale(1.02);
+}
+.stroka-icon{
+	height: 180px;
+	width: 320px;
+	background: url(./image/weather.webp);
+	background-size: cover;
+	background-position: center;
+	margin: 2px;
+	margin-left: 200px;
+	transition: .50s ease;
+}
+.stroka-icon:hover{
+	transform: scale(1.02);
+}
+.stroka-icon2{
+	height: 180px;
+	width: 325px;
+	background: url(./image/travel.jpg);
+	background-size: cover;
+	background-position: center;
+	margin: 2px;
+	margin-left: 200px;
+	transition: .50s ease;
+}
+.stroka-icon2:hover{
+	transform: scale(1.02);
+}
+.stroka-main{
+	display: flex;
+	margin-left: 198px;
+	transition: .50s ease;
+}
+.icon33{
+	height: 180px;
+	width: 158px;
+	background-color: rebeccapurple;
+	margin: 2px;
+	transition: .50s ease;
+}
+.icon33:hover{
+	transform: scale(1.02);
+}
+.icon43{
+	height: 180px;
+	width: 158px;
+	background-color: rebeccapurple;
+	margin: 2px;
+	transition: .50s ease;
+}
+.icon43:hover{
+	transform: scale(1.02);
+}
+.mail-icon{
+	width: 120px;
+	padding-left: 99px;
+	padding-top: 43px;
+	transition: .50s ease;
+}
+.people-icon{
+	width: 150px;
+	padding-left: 80px;
+	padding-top: 24px;
+	transition: .50s ease;
+}
+.calendar-icon{
+	width: 110px;
+	padding-left: 100px;
+	padding-top: 30px;
+	transition: .50s ease;
+}
+.internet{
+	width: 100px;
+	padding-left: 20px;
+	padding-top: 50px;
+	transition: .50s ease;
+}
+.icon-internet{
+	height: 180px;
+	width: 150px;
+	background-color: #2777EC;
+	margin: 2px;
+	font-size: 24px;
+	transition: .50s ease;
+}
+.icon-internet:hover{
+	transform: scale(1.02);
+}
+.stroka1 .span-internet{
+	margin-top: 40px;
+}
+.icon-store{
+	height: 180px;
+	width: 150px;
+	background: url(./image/store.png);
+	background-size: cover;
+	background-position: center;
+	margin: 2px;
+	font-size: 24px;
+	transition: .50s ease;
+}
+.icon-store:hover{
+	transform: scale(1.02);
+}
+.icon-desctop{
+	height: 180px;
+	width: 320px;
+	background: url(./image/desctop.jpg);
+	background-size: cover;
+	background-position: center;
+	margin: 2px;
+	font-size: 28px;
+	transition: .50s ease;
+}
+.icon-desctop:hover{
+	transform: scale(1.02);
+}
+.stroka-icon-bing{
+	height: 180px;
+	width: 325px;
+	background: url(./image/bing.jpg);
+	background-size: cover;
+	background-position: center;
+	margin: 2px;
+	margin-left: 200px;
+	transition: .50s ease;
+}
+.stroka-icon-bing:hover{
+	transform: scale(1.02);
+}
+.icon-photos{
+	height: 180px;
+	width: 320px;
+	background: url(./image/photos.webp);
+	background-size: cover;
+	background-position: center;
+	margin: 2px;
+	font-size: 28px;
+	transition: .50s ease;
+}
+.icon-photos:hover{
+	transform: scale(1.02);
+}
+.icon-message{
+	height: 180px;
+	width: 320px;
+	background: url(./image/message.png);
+	background-size: cover;
+	background-position: center;
+	margin: 2px;
+	font-size: 28px;
+	transition: .50s ease;
+}
+.icon-message:hover{
+	transform: scale(1.02);
+}
+.icon-finance{
+	height: 180px;
+	width: 320px;
+	background: url(./image/finans.jpg);
+	background-size: cover;
+	background-position: center;
+	margin: 2px;
+	font-size: 28px;
+	transition: .50s ease;
+}
+.icon-finance:hover{
+	transform: scale(1.02);
+}
+.icon-weather{
+	height: 180px;
+	width: 320px;
+	background: url(./image/weather.webp);
+	background-size: cover;
+	background-position: center;
+	margin: 2px;
+	font-size: 28px;
+	transition: .50s ease;
+}
+.icon-weather:hover{
+	transform: scale(1.02);
+}
+.icons-sports{
+	height: 180px;
+	width: 306px;
+	background: url(./image/sports.png);
+	background-size: cover;
+	background-position: center;
+	margin: 2px;
+	font-size: 28px;
+	transition: .50s ease;
+}
+.icons-sports:hover{
+	transform: scale(1.02);
+}
+.icons-news{
+	height: 180px;
+	width: 305px;
+	background: url(./image/news.jpg);
+	background-size: cover;
+	background-position: center;
+	margin: 2px;
+	font-size: 28px;
+	transition: .50s ease;
+}
+.icons-news:hover{
+	transform: scale(1.02);
+}
+.icon-maps{
+	height: 180px;
+	width: 150px;
+	background: url(./image/maps.png);
+	background-size: cover;
+	background-position: center;
+	margin: 2px;
+	transition: .50s ease;
+}
+.icon-maps:hover{
+	transform: scale(1.02);
+}
+.icon-skydrive{
+	height: 180px;
+	width: 150px;
+	background: url(./image/skydrive.webp);
+	background-size: cover;
+	background-position: center;
+	margin: 2px;
+	transition: .50s ease;
+}
+.icon-skydrive:hover{
+	transform: scale(1.02);
+}
+.icon-games{
+	height: 180px;
+	width: 160px;
+	background: url(./image/xboks.jpg);
+	background-size: cover;
+	background-position: center;
+	margin: 2px;
+	transition: .50s ease;
+}
+.icon-games:hover{
+	transform: scale(1.02);
+}
+.icon-camera{
+	height: 180px;
+	width: 160px;
+	background: url(./image/Camara.jpg);
+	background-size: cover;
+	background-position: center;
+	margin: 2px;
+	transition: .50s ease;
+}
+.icon-camera:hover{
+	transform: scale(1.02);
+}
+.icon-music{
+	height: 180px;
+	width: 160px;
+	background: url(./image/music.jpg);
+	background-size: cover;
+	background-position: center;
+	margin: 2px;
+	transition: .50s ease;
+}
+.icon-music:hover{
+	transform: scale(1.02);
+}
+.icon-video{
+	height: 180px;
+	width: 160px;
+	background: url(.//image/video.jpg)	;
+	background-size: cover;
+	background-position: center;
+	margin: 2px;
+	transition: .50s ease;
+}
+.icon-video:hover{
+	transform: scale(1.02);
+}
+h1, h3 {
+	display: inline-block;
+	width: 50%;
+	vertical-align: top;
+	font-weight: 400;
+	margin: 0;
+}
+h1 {
+	font-size: 3rem;
+}
+h3 {
+	font-size: 2rem;
+	text-align: right;
+}
+main {
+	height: 790px;
+	font-size: 0;
+	overflow-x: auto;
+}
+.column {
+	height: 540px;
+	width: 210px;
+	margin-right: 10px;
+	display: inline-block;
+	vertical-align: top;
+}
+.group {
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 40px;
+}
+.group_1 *:not(.column) {
+	background: #f06;
+}
+.group_2 *:not(.column) {
+	background: #f30;
+}
+.group_3 *:not(.column) {
+	background: #fc0;
+}
+.group_4 *:not(.column) {
+	background: #0c0;
+}
+.group_5 *:not(.column) {
+	background: #0c9;
+}
+.group_6 *:not(.column) {
+	background: #06c;
+}
+.group_7 *:not(.column) {
+	background: #66c;
+}
+.group_8 *:not(.column) {
+	background: #63c;
+}
+.group_9 *:not(.column) {
+	background: #c06;
+}
+.small {
+	width: 100px;
+	height: 100px;
+	background: #000;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	display: inline-block;
+	vertical-align: top;
+}
+.middle {
+	width: 210px;
+	height: 100px;
+	margin-bottom: 10px;
+}
+.big {
+	width: 210px;
+	height: 210px;
+	margin-bottom: 10px;
+}
+.mr0 {
+	margin-right: 0;
+}
+.mb0 {
+	margin-bottom: 0;
+}
+.main-main{
+	display: flex;
+	width: 4690px;
+	padding-right: 50px;
+}
+.scroll{
+	padding-top: 150px;
+}
